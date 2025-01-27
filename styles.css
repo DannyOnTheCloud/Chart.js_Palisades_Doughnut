@@ -1,0 +1,43 @@
+/* Top Navbar */
+.top-nav {
+  background-color: #4e73df;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+  color: #d1d1d1;
+}
+
+/* Header Styling */
+.header-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #4e73df;
+  color: white;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Main Section */
+.chart-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}

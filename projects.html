@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+  </nav>
+  <header class="header-container">
+    <h1>Projects</h1>
+  </header>
+  <main>
+    <section class="chart-container">
+      <h2>Palisades Fire Structure Analysis</h2>
+      <p>
+        This analysis was created using <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>, a flexible and open-source JavaScript library for creating interactive data visualizations. 
+        The data was sourced from the 
+        <a href="https://data.ca.gov/dataset/dins-2025-palisades-public-view" target="_blank">California Open Data Portal: DINS 2025 Palisades Public View</a>. 
+        Updated on January 24, 2025, at 4:00 PM (UTC-08:00).
+      </p>
+      <p>
+        The chart below illustrates the distribution of structure types affected by the Palisades Fire, which began on Tuesday, January 7, 2025, at approximately 10:30 AM PST. 
+        This visualization provides critical insights into the types of infrastructure impacted, helping guide future prevention and recovery efforts.
+      </p>
+      <p><i>The color rectangles are interactive; click on them to eliminate them from the chart and see how it adjusts.</i></p>
+
+      <canvas id="multiDonutChart" width="900" height="900" style="margin: 0 auto;"></canvas>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Daniel Solis | Powered by AWS</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

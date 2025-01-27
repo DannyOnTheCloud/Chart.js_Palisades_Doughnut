@@ -1,0 +1,10 @@
+{
+    "total_buildings_analyzed": 11939,
+    "data": {
+        "Affected (1-9%)": 792,
+        "Destroyed (>50%)": 6699,
+        "Major (26-50%)": 74,
+        "Minor (10-25%)": 162,
+        "No Damage": 4212
+    }
+}
